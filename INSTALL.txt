@@ -1,0 +1,7 @@
+$ diff Makefile.Linux64 Makefile.Linux
+17c17
+< CFLAGS = $(COPT) -m32
+---
+> CFLAGS = $(COPT)
+
+$ sudo make -f Makefile.Linux install 
